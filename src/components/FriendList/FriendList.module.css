@@ -12,6 +12,9 @@
 .name{
     color: #000;
 }
+.status{
+    color: #000;
+}
 .status.isOnline{
 color: rgb(0, 182, 0);
 }
