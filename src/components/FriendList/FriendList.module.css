@@ -8,17 +8,9 @@
     padding: 15px;
     border-radius: 5px;
 }
-.avatar{
-
-}
 .name{
     color: #000;
 }
-.status{
-
-}
-
-
 .status.isOnline{
 color: rgb(0, 182, 0);
 }
