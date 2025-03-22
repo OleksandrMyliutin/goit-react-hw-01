@@ -6,6 +6,7 @@
     border: 1px solid #000;
     background-color: white;
     padding: 15px;
+    min-width: 79px;
     border-radius: 5px;
 }
 .name{
