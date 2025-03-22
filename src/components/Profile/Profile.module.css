@@ -1,0 +1,36 @@
+.wrapper{
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: #f9f9f9;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.textBlack{
+    color: #213547;
+}
+.textGray{
+    color: #b7b7b7;
+}
+.avatar{
+    background-color: black;
+    border-radius: 50%;
+}
+.stats{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.statsItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(97, 97, 97);
+    background-color: rgb(165, 165, 165);
+}
