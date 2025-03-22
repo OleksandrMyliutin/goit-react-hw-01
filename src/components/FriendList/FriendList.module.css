@@ -1,0 +1,28 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+.avatar{
+
+}
+.name{
+    color: #000;
+}
+.status{
+
+}
+
+
+.status.isOnline{
+color: rgb(0, 182, 0);
+}
+
+.status.isOffline{
+color: red;
+}

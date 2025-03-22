@@ -101,3 +101,13 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.wrapper{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+  margin-left: 50px;
+  
+}
+
