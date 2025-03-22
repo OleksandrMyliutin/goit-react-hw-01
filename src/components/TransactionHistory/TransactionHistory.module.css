@@ -14,3 +14,15 @@ background-color: rgb(106, 106, 106);
   padding-left: 50px;
   padding-right: 50px;
 }
+
+
+.tableStyle{
+  border: 2px solid black;
+}
+
+.headerTable{
+  background-color: rgb(37, 37, 37);
+}
+.bodyTable{
+  padding: 25px;
+}

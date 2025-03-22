@@ -103,22 +103,3 @@ img {
 }
 
 
-.wrapper{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: row;
-  column-gap: 12px;
-  margin-left: 50px;
-}
-
-.table-style{
-  border: 2px solid black;
-}
-
-.header-table{
-  background-color: rgb(37, 37, 37);
-}
-.body-table{
-  padding: 25px;
-}

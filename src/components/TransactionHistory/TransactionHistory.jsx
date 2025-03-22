@@ -1,13 +1,25 @@
 import s from './TransactionHistory.module.css';
-
-const TransactionHistory = ({ type, amount, currency }) => {
+const TransactionHistory = ({ items }) => {
     return (
-        <tr className={s.row}>
-            <td className={s.text}>{type}</td>
-            <td className={s.text}>{amount}</td>
-            <td className={s.text}>{currency}</td>
-        </tr>
+        <table className={s.tableStyle}>
+            <thead className={s.headerTable}>
+                    <tr>
+                        <th>Type</th>
+                        <th>Amount</th>
+                        <th>Currency</th>
+                    </tr>
+            </thead>
+            <tbody className={s.bodyTable}>
+            {items.map((item, idx) => (
+                <tr className={s.row} key={idx}>
+                    <td className={s.text}>{item.type}</td>
+                    <td className={s.text}>{item.amount}</td>
+                    <td className={s.text}>{item.currency}</td>
+                </tr>
+            ))}
+            </tbody>            
+        </table>
+        
     );
 }
-
 export default TransactionHistory;
